@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71BD1EA71360B1DC00E5A325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BD1EA61360B1DC00E5A325 /* UIKit.framework */; };
+		71BD1EA91360B1DC00E5A325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BD1EA81360B1DC00E5A325 /* Foundation.framework */; };
+		71BD1EAB1360B1DC00E5A325 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BD1EAA1360B1DC00E5A325 /* CoreGraphics.framework */; };
+		71BD1EB11360B1DC00E5A325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71BD1EAF1360B1DC00E5A325 /* InfoPlist.strings */; };
+		71BD1EB41360B1DC00E5A325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BD1EB31360B1DC00E5A325 /* main.m */; };
+		71BD1EB71360B1DC00E5A325 /* DiretaEsquerdaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BD1EB61360B1DC00E5A325 /* DiretaEsquerdaAppDelegate.m */; };
+		71BD1EBA1360B1DC00E5A325 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71BD1EB81360B1DC00E5A325 /* MainWindow.xib */; };
+		71BD1EBD1360B1DC00E5A325 /* DiretaEsquerdaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BD1EBC1360B1DC00E5A325 /* DiretaEsquerdaViewController.m */; };
+		71BD1EC01360B1DC00E5A325 /* DiretaEsquerdaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71BD1EBE1360B1DC00E5A325 /* DiretaEsquerdaViewController.xib */; };
+		71BD1EC71360B1DC00E5A325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BD1EA61360B1DC00E5A325 /* UIKit.framework */; };
+		71BD1EC81360B1DC00E5A325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BD1EA81360B1DC00E5A325 /* Foundation.framework */; };
+		71BD1EC91360B1DC00E5A325 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BD1EAA1360B1DC00E5A325 /* CoreGraphics.framework */; };
+		71BD1ED11360B1DC00E5A325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71BD1ECF1360B1DC00E5A325 /* InfoPlist.strings */; };
+		71BD1ED41360B1DC00E5A325 /* DiretaEsquerdaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 71BD1ED31360B1DC00E5A325 /* DiretaEsquerdaTests.h */; };
+		71BD1ED61360B1DC00E5A325 /* DiretaEsquerdaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BD1ED51360B1DC00E5A325 /* DiretaEsquerdaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71BD1ECA1360B1DC00E5A325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BD1E991360B1DB00E5A325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BD1EA11360B1DC00E5A325;
+			remoteInfo = DiretaEsquerda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71BD1EA21360B1DC00E5A325 /* DiretaEsquerda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiretaEsquerda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BD1EA61360B1DC00E5A325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		71BD1EA81360B1DC00E5A325 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71BD1EAA1360B1DC00E5A325 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71BD1EAE1360B1DC00E5A325 /* DiretaEsquerda-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiretaEsquerda-Info.plist"; sourceTree = "<group>"; };
+		71BD1EB01360B1DC00E5A325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71BD1EB21360B1DC00E5A325 /* DiretaEsquerda-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiretaEsquerda-Prefix.pch"; sourceTree = "<group>"; };
+		71BD1EB31360B1DC00E5A325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71BD1EB51360B1DC00E5A325 /* DiretaEsquerdaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiretaEsquerdaAppDelegate.h; sourceTree = "<group>"; };
+		71BD1EB61360B1DC00E5A325 /* DiretaEsquerdaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiretaEsquerdaAppDelegate.m; sourceTree = "<group>"; };
+		71BD1EB91360B1DC00E5A325 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		71BD1EBB1360B1DC00E5A325 /* DiretaEsquerdaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiretaEsquerdaViewController.h; sourceTree = "<group>"; };
+		71BD1EBC1360B1DC00E5A325 /* DiretaEsquerdaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiretaEsquerdaViewController.m; sourceTree = "<group>"; };
+		71BD1EBF1360B1DC00E5A325 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DiretaEsquerdaViewController.xib; sourceTree = "<group>"; };
+		71BD1EC61360B1DC00E5A325 /* DiretaEsquerdaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiretaEsquerdaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BD1ECE1360B1DC00E5A325 /* DiretaEsquerdaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiretaEsquerdaTests-Info.plist"; sourceTree = "<group>"; };
+		71BD1ED01360B1DC00E5A325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71BD1ED21360B1DC00E5A325 /* DiretaEsquerdaTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiretaEsquerdaTests-Prefix.pch"; sourceTree = "<group>"; };
+		71BD1ED31360B1DC00E5A325 /* DiretaEsquerdaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiretaEsquerdaTests.h; sourceTree = "<group>"; };
+		71BD1ED51360B1DC00E5A325 /* DiretaEsquerdaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiretaEsquerdaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71BD1E9F1360B1DC00E5A325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BD1EA71360B1DC00E5A325 /* UIKit.framework in Frameworks */,
+				71BD1EA91360B1DC00E5A325 /* Foundation.framework in Frameworks */,
+				71BD1EAB1360B1DC00E5A325 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BD1EC21360B1DC00E5A325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BD1EC71360B1DC00E5A325 /* UIKit.framework in Frameworks */,
+				71BD1EC81360B1DC00E5A325 /* Foundation.framework in Frameworks */,
+				71BD1EC91360B1DC00E5A325 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71BD1E971360B1DB00E5A325 = {
+			isa = PBXGroup;
+			children = (
+				71BD1EAC1360B1DC00E5A325 /* DiretaEsquerda */,
+				71BD1ECC1360B1DC00E5A325 /* DiretaEsquerdaTests */,
+				71BD1EA51360B1DC00E5A325 /* Frameworks */,
+				71BD1EA31360B1DC00E5A325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71BD1EA31360B1DC00E5A325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71BD1EA21360B1DC00E5A325 /* DiretaEsquerda.app */,
+				71BD1EC61360B1DC00E5A325 /* DiretaEsquerdaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71BD1EA51360B1DC00E5A325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71BD1EA61360B1DC00E5A325 /* UIKit.framework */,
+				71BD1EA81360B1DC00E5A325 /* Foundation.framework */,
+				71BD1EAA1360B1DC00E5A325 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71BD1EAC1360B1DC00E5A325 /* DiretaEsquerda */ = {
+			isa = PBXGroup;
+			children = (
+				71BD1EB51360B1DC00E5A325 /* DiretaEsquerdaAppDelegate.h */,
+				71BD1EB61360B1DC00E5A325 /* DiretaEsquerdaAppDelegate.m */,
+				71BD1EB81360B1DC00E5A325 /* MainWindow.xib */,
+				71BD1EBB1360B1DC00E5A325 /* DiretaEsquerdaViewController.h */,
+				71BD1EBC1360B1DC00E5A325 /* DiretaEsquerdaViewController.m */,
+				71BD1EBE1360B1DC00E5A325 /* DiretaEsquerdaViewController.xib */,
+				71BD1EAD1360B1DC00E5A325 /* Supporting Files */,
+			);
+			path = DiretaEsquerda;
+			sourceTree = "<group>";
+		};
+		71BD1EAD1360B1DC00E5A325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71BD1EAE1360B1DC00E5A325 /* DiretaEsquerda-Info.plist */,
+				71BD1EAF1360B1DC00E5A325 /* InfoPlist.strings */,
+				71BD1EB21360B1DC00E5A325 /* DiretaEsquerda-Prefix.pch */,
+				71BD1EB31360B1DC00E5A325 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71BD1ECC1360B1DC00E5A325 /* DiretaEsquerdaTests */ = {
+			isa = PBXGroup;
+			children = (
+				71BD1ED31360B1DC00E5A325 /* DiretaEsquerdaTests.h */,
+				71BD1ED51360B1DC00E5A325 /* DiretaEsquerdaTests.m */,
+				71BD1ECD1360B1DC00E5A325 /* Supporting Files */,
+			);
+			path = DiretaEsquerdaTests;
+			sourceTree = "<group>";
+		};
+		71BD1ECD1360B1DC00E5A325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71BD1ECE1360B1DC00E5A325 /* DiretaEsquerdaTests-Info.plist */,
+				71BD1ECF1360B1DC00E5A325 /* InfoPlist.strings */,
+				71BD1ED21360B1DC00E5A325 /* DiretaEsquerdaTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71BD1EA11360B1DC00E5A325 /* DiretaEsquerda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BD1ED91360B1DC00E5A325 /* Build configuration list for PBXNativeTarget "DiretaEsquerda" */;
+			buildPhases = (
+				71BD1E9E1360B1DC00E5A325 /* Sources */,
+				71BD1E9F1360B1DC00E5A325 /* Frameworks */,
+				71BD1EA01360B1DC00E5A325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiretaEsquerda;
+			productName = DiretaEsquerda;
+			productReference = 71BD1EA21360B1DC00E5A325 /* DiretaEsquerda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71BD1EC51360B1DC00E5A325 /* DiretaEsquerdaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BD1EDC1360B1DC00E5A325 /* Build configuration list for PBXNativeTarget "DiretaEsquerdaTests" */;
+			buildPhases = (
+				71BD1EC11360B1DC00E5A325 /* Sources */,
+				71BD1EC21360B1DC00E5A325 /* Frameworks */,
+				71BD1EC31360B1DC00E5A325 /* Resources */,
+				71BD1EC41360B1DC00E5A325 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BD1ECB1360B1DC00E5A325 /* PBXTargetDependency */,
+			);
+			name = DiretaEsquerdaTests;
+			productName = DiretaEsquerdaTests;
+			productReference = 71BD1EC61360B1DC00E5A325 /* DiretaEsquerdaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71BD1E991360B1DB00E5A325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Popcode Mobile Solutions";
+			};
+			buildConfigurationList = 71BD1E9C1360B1DB00E5A325 /* Build configuration list for PBXProject "DiretaEsquerda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71BD1E971360B1DB00E5A325;
+			productRefGroup = 71BD1EA31360B1DC00E5A325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71BD1EA11360B1DC00E5A325 /* DiretaEsquerda */,
+				71BD1EC51360B1DC00E5A325 /* DiretaEsquerdaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71BD1EA01360B1DC00E5A325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BD1EB11360B1DC00E5A325 /* InfoPlist.strings in Resources */,
+				71BD1EBA1360B1DC00E5A325 /* MainWindow.xib in Resources */,
+				71BD1EC01360B1DC00E5A325 /* DiretaEsquerdaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BD1EC31360B1DC00E5A325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BD1ED11360B1DC00E5A325 /* InfoPlist.strings in Resources */,
+				71BD1ED41360B1DC00E5A325 /* DiretaEsquerdaTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71BD1EC41360B1DC00E5A325 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71BD1E9E1360B1DC00E5A325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BD1EB41360B1DC00E5A325 /* main.m in Sources */,
+				71BD1EB71360B1DC00E5A325 /* DiretaEsquerdaAppDelegate.m in Sources */,
+				71BD1EBD1360B1DC00E5A325 /* DiretaEsquerdaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BD1EC11360B1DC00E5A325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BD1ED61360B1DC00E5A325 /* DiretaEsquerdaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71BD1ECB1360B1DC00E5A325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BD1EA11360B1DC00E5A325 /* DiretaEsquerda */;
+			targetProxy = 71BD1ECA1360B1DC00E5A325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71BD1EAF1360B1DC00E5A325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71BD1EB01360B1DC00E5A325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71BD1EB81360B1DC00E5A325 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71BD1EB91360B1DC00E5A325 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		71BD1EBE1360B1DC00E5A325 /* DiretaEsquerdaViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71BD1EBF1360B1DC00E5A325 /* en */,
+			);
+			name = DiretaEsquerdaViewController.xib;
+			sourceTree = "<group>";
+		};
+		71BD1ECF1360B1DC00E5A325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71BD1ED01360B1DC00E5A325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71BD1ED71360B1DC00E5A325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71BD1ED81360B1DC00E5A325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		71BD1EDA1360B1DC00E5A325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiretaEsquerda/DiretaEsquerda-Prefix.pch";
+				INFOPLIST_FILE = "DiretaEsquerda/DiretaEsquerda-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71BD1EDB1360B1DC00E5A325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiretaEsquerda/DiretaEsquerda-Prefix.pch";
+				INFOPLIST_FILE = "DiretaEsquerda/DiretaEsquerda-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		71BD1EDD1360B1DC00E5A325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiretaEsquerda.app/DiretaEsquerda";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiretaEsquerdaTests/DiretaEsquerdaTests-Prefix.pch";
+				INFOPLIST_FILE = "DiretaEsquerdaTests/DiretaEsquerdaTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		71BD1EDE1360B1DC00E5A325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiretaEsquerda.app/DiretaEsquerda";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiretaEsquerdaTests/DiretaEsquerdaTests-Prefix.pch";
+				INFOPLIST_FILE = "DiretaEsquerdaTests/DiretaEsquerdaTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71BD1E9C1360B1DB00E5A325 /* Build configuration list for PBXProject "DiretaEsquerda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BD1ED71360B1DC00E5A325 /* Debug */,
+				71BD1ED81360B1DC00E5A325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BD1ED91360B1DC00E5A325 /* Build configuration list for PBXNativeTarget "DiretaEsquerda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BD1EDA1360B1DC00E5A325 /* Debug */,
+				71BD1EDB1360B1DC00E5A325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71BD1EDC1360B1DC00E5A325 /* Build configuration list for PBXNativeTarget "DiretaEsquerdaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BD1EDD1360B1DC00E5A325 /* Debug */,
+				71BD1EDE1360B1DC00E5A325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71BD1E991360B1DB00E5A325 /* Project object */;
+}
